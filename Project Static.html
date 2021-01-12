@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Static</title>
+
+	<style type="text/css">
+
+
+body{margin: 0px; padding: 0px;}
+main{width: 100%
+border: 1px solid red;
+height: 800px;
+background-color: #E0CAC5;}
+
+header {
+	height: 125px;
+	background: #E0CAC5;
+}
+.footer {
+	height: 125px;
+	background: #E0CAC5;
+}
+
+
+
+
+#left-bar ul {margin: 0px; padding: 0px; list-style-type: none; margin-top: 20px;}
+#left-bar ul li { margin-left: 15px; line-height: 30px; border-bottom: 1px dotted black;}
+#left-bar ul li a{color: black; text-decoration: none;}
+#left-bar ul li a:hover {color: orange; text-decoration: underline;}
+
+
+
+nav ul {margin: 0px; padding: 0px; list-style-type: none;margin-top: 0px; background: black; padding: 10px}
+nav ul li {display: inline; margin-left: 15px; padding: 15px; line-height: 30px;}
+nav ul li a{color: yellow; text-decoration: none;}
+nav ul li a:hover {color: green; text-decoration: underline;}
+
+#header-left{width: 350px; border: 0px solid red; height: 120px; float: left;}
+#header-right{width: 350px; border: 0px solid red; height: 120px; float: right;}
+#footer-left{width: 250px; border: 0px solid red; height: 120px; float: left;}
+#footer-right{width: 250px; border: 0px solid red; height: 120px; float: right;}
+#h2{font-size: 15px; padding-top: 30px;}
+#logo{font-size: 50px; color: black; padding-top: 15px; padding-left: 15px;}
+#logo:hover {transition: 0,5s; color: orange;}
+#slogan{font-size: 20px; color: black; padding-top: 15px; padding-left: 15px;font-family: 'Roboto', sans-serif;}
+#phone-icon{float: left; padding-top: 10px;}
+#phone{float:right; padding-right: 150px; color: black;font-size: 28px;padding-top: 10px;}
+#email{float:right; padding-right: 150px; color: black;font-size: 20px;padding-top: 10px;}
+#center{
+	display: flex;
+}
+
+.center-image{float: right;  height: 100px; width: 100px;
+}
+
+.react {height: 100%; width: 100%; margin-left: 10px; transition: 0.5s;}
+.react:hover{ transform: scale(1.1);}
+.js {height: 100%; width: 100%; margin-left: 10px; transition: 0.5s;}
+.js:hover{ transform: scale(1.1);}
+.flash {height: 100%; width: 100%; margin-left: 10px; transition: 0.5s;}
+.flash:hover{ transform: scale(1.1);}
+.python {height: 100%; width: 100%; margin-left: 10px; transition: 0.5s;}
+.python:hover{ transform: scale(1.1);}
+.c {height: 100%; width: 100%; margin-left: 10px; transition: 0.5s;}
+.c:hover{ transform: scale(1.1);}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E0CAC5;
+  border-top: 1px dotted black; border-bottom: 1px dotted black;
+  font-size: 30px; color: black; font-family: roboto;
+  padding-top: 5px; padding-bottom: 5px;
+}
+
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+video {
+  width: 80%;
+  height: 40%;
+  margin-top: 0%;
+}
+
+.social-icons{float: left; padding-right: 20px;padding-top: 20px; height: 30px; width: 30px;}
+
+
+	</style>
+</head>
+<body>
+
+	<header>
+		
+<div id="header-left">
+			<div id="logo">Zack Consulting</div>
+		<div id="slogan">IT & Education Consultancy</div>
+
+	</div>
+
+	<div id="header-right">
+		<div id="phone-icon"><img src="Images/phones.jpg" height="30" width="30"></div>
+			<div id="phone">9831164520</div>
+		<div id="email">Email: codezack09@gmail.com</div>
+
+	</div>
+
+
+	</header>
+
+
+	<nav>
+		<ul>
+			<li><a href="Cake.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="services.html">Service</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+
+		</ul>
+	</nav>
+
+	<div id="center">
+			
+			<div ><img src="Images/react.png" class="react"></div>
+			<div ><img src="Images/js.png" class="js"></div>
+			<div ><img src="Images/flash.jpg" class="flash"></div>
+			<div ><img src="Images/python.png" class="python"></div>
+			<div ><img src="Images/c.jpg" class="c"></div>
+			
+		</div>
+
+
+		<div class="main">
+
+  <section class="left section">
+
+    <h1>This is the video of Javascript Programming Language which will enchance your knowledge towards web development</h1>
+
+  </section>
+  <section class="right section">
+
+    <video src="https://www.youtube.com/watch?v=hBh_CC5y8-s"controls></video>
+
+  </section>
+
+</div>
+
+
+
+<div class="footer">
+	
+<div id="footer-left">
+
+			<h2 id="h2">Copyright: ZackConsulting 2021</h2>
+			
+
+		</div>
+
+
+		<div id="footer-right">
+
+			<h2>Stay in Touch</h2>
+			<div>
+			<div class="social-icons"><img src="Images/fb.jpg" height="30" width="30"></div>
+			<div class="social-icons"><img src="Images/youtube.jpeg" height="30" width="30"></div>
+			<div class="social-icons"><img src="Images/twitter.png" height="30" width="30"></div>
+
+		</div>
+			
+
+		</div>
+
+</div>
+
+		
+
+
+	
+</body>
+</html>
